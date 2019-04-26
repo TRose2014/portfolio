@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("font-awesome.min.css");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("font-awesome.min.css"); */
 
 /*
 	Miniport by HTML5 UP
@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -70,11 +70,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
 
-	html {
+	/* html {
 		box-sizing: border-box;
 	}
 
@@ -219,11 +219,11 @@ input, select, textarea {
 
 		footer > p {
 			font-size: 1.25em;
-		}
+		} */
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
@@ -280,11 +280,11 @@ input, select, textarea {
 					width: 100%;
 				}
 
-		}
+		} */
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1503,9 +1503,9 @@ input, select, textarea {
 							padding-top: 30px;
 						}
 
-		}
+		} */
 
-/* Form */
+/* Form
 
 	form label {
 		color: #3e3e3e;
@@ -1571,11 +1571,11 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} */
 
 /* Tables */
 
-	table {
+	/* table {
 		width: 100%;
 	}
 
@@ -1608,7 +1608,7 @@ input, select, textarea {
 			}
 
 /* Section/Article */
-
+/* 
 	section, article {
 		margin-bottom: 3em;
 	}
@@ -1618,11 +1618,12 @@ input, select, textarea {
 	section:last-child,
 	article:last-child {
 		margin-bottom: 0;
-	}
+	}*/
+
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		position: relative;
 	}
@@ -1656,11 +1657,11 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
+			} */
 
 /* Button */
 
-	input[type="button"],
+	/* input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -1743,9 +1744,9 @@ input, select, textarea {
 			button.alt:active,
 			.button.alt:active {
 				background-color: #3f3f3f;
-			}
+			} */
 
-/* List */
+/* List
 
 	ul {
 		list-style: disc;
@@ -1763,9 +1764,9 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
-/* Social */
+/* Social
 
 	ul.social {
 		cursor: default;
@@ -1889,11 +1890,11 @@ input, select, textarea {
 
 					ul.social li a:hover:before {
 						background-color: transparent;
-					}
+					} */
 
 /* Actions */
 
-	ul.actions {
+	/* ul.actions {
 		list-style: none;
 		padding-left: 0;
 	}
@@ -1906,11 +1907,11 @@ input, select, textarea {
 
 			ul.actions li:first-child {
 				margin-left: 0;
-			}
+			} */
 
 /* Box */
 
-	.box {
+	/* .box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
@@ -1935,11 +1936,11 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
-		}
+		} */
 
 /* Icons */
 
-	.icon {
+	/* .icon {
 		text-decoration: none;
 	}
 
@@ -1968,11 +1969,11 @@ input, select, textarea {
 
 			.icon.featured:before {
 				font-size: 6em;
-			}
+			} */
 
 /* Wrappers */
 
-	.wrapper {
+	/* .wrapper {
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
@@ -2017,11 +2018,11 @@ input, select, textarea {
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
-				}
+				} */
 
 /* Nav */
 
-	#nav {
+	/* #nav {
 		background-color: #282828;
 		text-align: center;
 		position: fixed;
@@ -2082,9 +2083,9 @@ input, select, textarea {
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
 					border-top: solid 0.6em #282828;
-				}
+				} */
 
-/* Articles */
+/* Articles
 
 	body > article {
 		margin-bottom: 0;
@@ -2121,11 +2122,11 @@ input, select, textarea {
 
 	#contact footer {
 		font-size: 0.9em;
-	}
+	} */
 
 /* Copyright */
 
-	#copyright {
+	/* #copyright {
 		color: #666;
 		font-size: 1em;
 		line-height: 1em;
@@ -2159,7 +2160,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				color: #777;
-			}
+			} */
 
 /* Large */
 
@@ -2207,11 +2208,11 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	/* @media screen and (max-width: 980px) { */
 
 		/* Articles */
 
-			#top {
+			/* #top {
 				text-align: center;
 				padding: 5em 0;
 			}
@@ -2220,15 +2221,15 @@ input, select, textarea {
 					margin: 0 auto 2em auto;
 				}
 
-	}
+	} */
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	/* @media screen and (max-width: 736px) { */
 
 		/* Basic */
 
-			body {
+			/* body {
 				padding-top: 44px;
 			}
 
@@ -2266,16 +2267,16 @@ input, select, textarea {
 
 			hr {
 				margin: 1.5em 0 2em 0;
-			}
+			} */
 
 		/* Section/Article */
 
-			section, article {
+			/* section, article {
 				clear: both;
-			}
+			} */
 
 		/* Button */
-
+/* 
 			input[type="button"],
 			input[type="submit"],
 			input[type="reset"],
@@ -2294,11 +2295,11 @@ input, select, textarea {
 				.button.large {
 					font-size: 1.2em;
 					letter-spacing: 0;
-				}
+				} */
 
 		/* Social */
 
-			ul.social {
+			/* ul.social {
 				padding: 1em 0.5em 0 0.5em;
 			}
 
@@ -2327,10 +2328,10 @@ input, select, textarea {
 
 					ul.actions li:first-child {
 						margin-top: 0;
-					}
+					} */
 
 		/* Box */
-
+/* 
 			.box {
 				padding: 30px 20px 30px 20px;
 				margin: 0 0 20px 0 !important;
@@ -2362,18 +2363,18 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
-				}
+				} */
 
 		/* Wrappers */
 
-			.wrapper {
+			/* .wrapper {
 				padding: 3em 0;
 				text-align: center;
-			}
+			} */
 
 		/* Nav */
 
-			#nav {
+			/* #nav {
 				height: 44px;
 				line-height: 44px;
 			}
@@ -2387,10 +2388,10 @@ input, select, textarea {
 
 					#nav a:hover {
 						background-color: transparent;
-					}
+					} */
 
 		/* Articles */
-
+/* 
 			#top {
 				padding: 3em 0;
 			}
@@ -2407,11 +2408,11 @@ input, select, textarea {
 
 			#contact footer {
 				margin: 0;
-			}
+			} */
 
 		/* Copyright */
 
-			#copyright {
+			/* #copyright {
 				font-size: 1em;
 				margin: 0;
 			}
@@ -2428,4 +2429,4 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
-	}
+	} */
