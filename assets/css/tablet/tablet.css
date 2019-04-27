@@ -513,6 +513,23 @@
 
 }
 
+/* Medium */
+
+@media screen and (max-width: 980px) {
+
+  /* Articles */
+
+    #top {
+      text-align: center;
+      padding: 5em 0;
+    }
+
+      #top .image {
+        margin: 0 auto 2em auto;
+      }
+
+}
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
