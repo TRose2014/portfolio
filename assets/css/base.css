@@ -78,3 +78,119 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+
+body {
+  padding-top: 3.5em;
+}
+
+body, input, textarea, select {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.85em;
+  color: #888;
+  font-weight: 300;
+  font-size: 13pt;
+}
+
+a:hover {
+  color: #43bff0 !important;
+}
+
+a img {
+  border: 0;
+}
+
+b, strong {
+font-weight: 600;
+color: #3e3e3e;
+}
+
+i, em {
+font-style: italic;
+}
+
+sub {
+position: relative;
+top: 0.5em;
+font-size: 0.8em;
+}
+
+sup {
+position: relative;
+top: -0.5em;
+font-size: 0.8em;
+}
+
+blockquote {
+border-left: solid 0.75em #eee;
+padding: 1em 0 1em 1.5em;
+font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #3e3e3e;
+margin: 0 0 0.75em 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+text-decoration: none;
+color: inherit;
+}
+
+h2, h3, h4, h5, h6 {
+font-weight: 700;
+}
+
+h1 {
+font-size: 3.25em;
+letter-spacing: -0.025em;
+font-weight: 300;
+}
+
+h1 strong {
+  font-weight: 700;
+}
+
+h2 {
+font-size: 2em;
+letter-spacing: -0.015em;
+}
+
+h3 {
+font-size: 1.5em;
+letter-spacing: -0.015em;
+}
+
+em, i {
+font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #444;
+  border-top-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+  height: 1px;
+  margin: 3em 0;
+}
+
+p, ul, ol, dl, table {
+	margin-bottom: 2em;
+}
+
+header {
+	margin: 0 0 3em 0;
+}
+
+	header > p {
+		font-size: 1.25em;
+		margin: 0;
+	}
+
+footer {
+	margin: 3em 0 0 0;
+}
+
+footer > p {
+  font-size: 1.25em;
+}
