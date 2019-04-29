@@ -26,3 +26,16 @@ Start time: 11:30am
 Finish time: _____
 
 Actual time needed to complete: _____
+
+##Feature #3: Add functionality
+
+Number and name of feature: Feature #3: Add functionality
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 10:30am
+
+Finish time: 12:22pm
+
+Actual time needed to complete: about an hour
+
