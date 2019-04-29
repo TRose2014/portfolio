@@ -32,3 +32,13 @@
   });
 
 })(jQuery);
+
+function slideSwitch() {
+  var $active = $('#slideshow IMG.active');
+  var $next = $active.next();
+  $next.addClass('active');
+  $active.removeClass('active');
+}
+$(function() {
+  setInterval( 'slideSwitch()', 2000 );
+});
