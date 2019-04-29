@@ -1,8 +1,8 @@
 @import url("../css/layout.css");
-@import url("../css/desktops/desktop.css");
-@import url("../css/tablet/tablet.css");
 @import url("../css/style/module.css");
 @import url("../css/style/row.css");
+@import url("../css/desktops/desktop.css");
+@import url("../css/tablet/tablet.css");
 @import url("../css/style/animation.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
@@ -146,7 +146,6 @@ font-weight: 700;
 
 h1 {
 font-size: 3.25em;
-letter-spacing: -0.025em;
 font-weight: 300;
 }
 
@@ -157,12 +156,10 @@ h1 strong {
 
 h2 {
 font-size: 2em;
-letter-spacing: -0.015em;
 }
 
 h3 {
 font-size: 1.5em;
-letter-spacing: -0.015em;
 }
 
 em, i {
